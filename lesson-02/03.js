@@ -1,8 +1,8 @@
 const giveMeRightNumbers = (value1, value2, maximum) => {
-    if ((value1 <= maximum) && (value1 !== value2)) {
+    if (value1 === value2 || value1 <= maximum) {
         console.log('Success!');
     } else {
-        console.log('Что-то не так!');
+        console.log('Something wrong!');
     }
 }
-giveMeRightNumbers(100, 100, 200);
+giveMeRightNumbers(300, 100, 200)

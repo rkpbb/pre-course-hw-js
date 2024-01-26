@@ -3,9 +3,9 @@ let passport = {
     surname: "Petrov",
 };
 
-let newPassport = { ...passport };
+let passport1 = { ...passport };
 
-newPassport.name = "Ivan";
+passport1.name = "Ivan";
 
+console.log(passport1.name);
 console.log(passport.name);
-console.log(newPassport.name);
